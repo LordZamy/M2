@@ -44,7 +44,6 @@ import edu.gatech.oad.antlab.pkg2.*;
 
 
     }
-
     /**
      * gathers a string from all the other classes and prints the message
      * out to the console
@@ -81,7 +80,6 @@ import edu.gatech.oad.antlab.pkg2.*;
           toPrint += p6.toString("jbaldwin33");
 
         System.out.println(toPrint);
-
 
     }
 
