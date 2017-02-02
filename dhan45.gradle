@@ -36,5 +36,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-jar { manifest { attributes ( 'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', "Class-Path": 'lib/resources.jar' + ' ' + configurations.compile.collect { it.getName() }.join(' ')) } }
+jar {
+    manifest {
+        attributes ( 
+            'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+            "Class-Path": '../../lib/resources.jar'
+            )
+        }
+    }
 
